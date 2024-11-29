@@ -1,7 +1,7 @@
 #cohort-album
 {
-    width: 100%;
-    padding: 0px 120px;
+    width: 80%;
+    padding: 12px;
     background-color: rgba(0, 0, 255, 0.11);
 }
 
@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: end;
 
-    width: 210px;
-    height: 240px;
+    width: 100px;
+    height: 100px;
 
     
     background-repeat: no-repeat;
@@ -100,5 +100,35 @@
 #profile10
 {
     background-image: url(../assets/10-portrait-serious-man.jpg);
+}
+
+#profile11
+{
+    background-image: url(../assets/11-young-black-woman-with-afro-hair-laughing-enjoying.jpg);
+}
+
+#profile12
+{
+    background-image: url(../assets/12-medium-shot-smiley-man-posing.jpg);
+}
+
+#profile13
+{
+    background-image: url(../assets/13-african-teenage-girl-portrait-happy-smiling-face.jpg);
+}
+
+#profile14
+{
+    background-image: url(../assets/14-african-american-man-wearing-stylish-hat.jpg);
+}
+
+#profile15
+{
+    background-image: url(../assets/15-portrait-attractive-young-black-male-studio-with-hat-cheesy-smile-dark-background.jpg);
+}
+
+#profile16
+{
+    background-image: url(../assets/16-confident-business-woman-portrait-smiling-face.jpg);
 }
 

@@ -1,4 +1,5 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './Components/Navbar'
 import CohortList from './Pages/CohortList'
@@ -11,8 +12,17 @@ function App() {
   return (
     
     <div>
-      <Navbar/>
-      <CohortParticipants/>
+      <BrowserRouter>
+      
+        <Navbar/>
+        <CohortParticipants/>
+
+        <Routes>
+          
+        </Routes>
+      </BrowserRouter>
+      
+      
       
     </div>
         
