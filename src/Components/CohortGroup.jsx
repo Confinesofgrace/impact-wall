@@ -1,5 +1,5 @@
 
-import './cohortGroup.css'
+import './CohortGroup.css'
 
 function CohortGroup () {
     return (
