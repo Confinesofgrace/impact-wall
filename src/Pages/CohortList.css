@@ -6,7 +6,7 @@
 #sidebar
 {
     width: 20%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.11);
 }
 
 #content
