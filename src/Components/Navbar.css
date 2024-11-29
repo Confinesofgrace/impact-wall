@@ -1,7 +1,6 @@
 #navbar
 {
     width: 100%;
-    background-color: yellow;
     padding: 12px 120px;
 
     display: flex;
@@ -14,7 +13,10 @@
 #for-tabs hr
 {
     width: 8px;
+    display: none;
 }
+
+
 
 #for-tabs
 {
