@@ -1,0 +1,36 @@
+.CohortCard 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.062);
+    max-width: 150px;
+    height: 205px;
+
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.CohortCard:hover 
+{
+    transform: translateY(5px);
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.CohortCard:hover h4 
+{
+    color: #0073e6;
+}
+
+
+

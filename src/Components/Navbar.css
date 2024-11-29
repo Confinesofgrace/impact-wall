@@ -1,0 +1,23 @@
+#navbar
+{
+    width: 100%;
+    background-color: yellow;
+    padding: 12px 120px;
+
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+
+
+#for-tabs hr
+{
+    width: 8px;
+}
+
+#for-tabs
+{
+    display: flex;
+    gap: 80px;
+}
