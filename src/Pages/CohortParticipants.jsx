@@ -22,16 +22,87 @@ function CohortParticipants () {
                         borderRadius:'12px'
                     }}/>
                 </div>
+
                 <div id="participant-list">
                     <p>2024 Autumn Cohort</p>
 
-                    <div>
+                    <div style={{display:'flex', gap:'40px',}}>
 
-                        <div id="profile1">
+                        <div className='profile' id="profile1">
                             <div id='profile-info'>
-                                <p>Amina Yousef</p>
-                                <p>Leadership Skill: 80%</p>
-                                <button>View more</button>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+                        <div className='profile' id="profile2">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'> View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile3">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile4">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile5">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
                             </div>
 
                         </div>
