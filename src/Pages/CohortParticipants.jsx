@@ -1,3 +1,5 @@
+import './CohortParticipants.css'
+
 function CohortParticipants () {
     return(
         <div id="cohort-pageLayout">
@@ -9,7 +11,7 @@ function CohortParticipants () {
                         fontSize:'24px',
                         fontWeight:'600',
                     }}>Participants List</p>
-                    <input placeholder='Search cohort/participants' 
+                    <input placeholder='Search participants' 
                     style={{
                         width:'60%',
                         height:'48px',
@@ -20,8 +22,21 @@ function CohortParticipants () {
                         borderRadius:'12px'
                     }}/>
                 </div>
-                <div id="content-top">
-                    For list of participants
+                <div id="participant-list">
+                    <p>2024 Autumn Cohort</p>
+
+                    <div>
+
+                        <div id="profile1">
+                            <div id='profile-info'>
+                                <p>Amina Yousef</p>
+                                <p>Leadership Skill: 80%</p>
+                                <button>View more</button>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
 
 

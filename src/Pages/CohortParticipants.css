@@ -1,0 +1,22 @@
+#profile1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 210px;
+    height: 296px;
+
+    background-image: url(../assets/close-up-beautiful-african-woman-portrait.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+#profile-info
+{
+    background-color: white;
+
+}
