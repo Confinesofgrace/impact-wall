@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar () {
@@ -17,14 +18,20 @@ function Navbar () {
             </div>
 
             <div id='for-tabs'>
-                <div>
-                    <p>Home</p>
-                    <hr></hr>
-                </div>
-                <div>
-                    <p>Cohorts</p>
-                    <hr></hr>
-                </div>
+                <NavLink to='/'>
+                    <div>
+                        <p>Home</p>
+                        <hr></hr>
+                    </div>
+                </NavLink>
+
+                <NavLink to='/cohort-page' >
+                    <div>
+                        <p>Cohorts</p>
+                        <hr></hr>
+                    </div>
+                </NavLink>
+                
                 <div>
                     <p>About</p>
                     <hr></hr>

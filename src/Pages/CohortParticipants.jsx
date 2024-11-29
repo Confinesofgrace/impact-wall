@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './CohortParticipants.css'
 
 function CohortParticipants () {
@@ -21,7 +22,9 @@ function CohortParticipants () {
 
                     <div style={{display:'flex', gap:'10px', marginBottom:'10px',}}>
 
-                        <div className='profile' id="profile1"> </div>
+                        <Link to='/participants' >
+                            <div className='profile' id="profile1"> </div>
+                        </Link>
                         <div className='profile' id="profile2"> </div>
 
                         <div className='profile' id="profile3"> </div>
