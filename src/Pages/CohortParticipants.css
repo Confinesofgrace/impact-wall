@@ -1,3 +1,10 @@
+#cohort-album
+{
+    width: 100%;
+    padding: 0px 120px;
+    background-color: rgba(0, 0, 255, 0.11);
+}
+
 .profile
 {
     display: flex;
@@ -73,5 +80,25 @@
 #profile6
 {
     background-image: url(../assets/portrait-father-his-backyard.png);
+}
+
+#profile7
+{
+    background-image: url(../assets/7-young-african-american-woman-with-headband-posing.jpg);
+}
+
+#profile8
+{
+    background-image: url(../assets/8-profile.jpg);
+}
+
+#profile9
+{
+    background-image: url(../assets/9-portrait-afro-business-woman-standing-outdoors-street.jpg);
+}
+
+#profile10
+{
+    background-image: url(../assets/10-portrait-serious-man.jpg);
 }
 
