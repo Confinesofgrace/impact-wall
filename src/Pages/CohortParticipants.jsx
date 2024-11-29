@@ -26,7 +26,7 @@ function CohortParticipants () {
                 <div id="participant-list">
                     <p>2024 Autumn Cohort</p>
 
-                    <div style={{display:'flex', gap:'40px',}}>
+                    <div style={{display:'flex', gap:'40px', marginBottom:'40px',}}>
 
                         <div className='profile' id="profile1">
                             <div id='profile-info'>
@@ -48,10 +48,10 @@ function CohortParticipants () {
                                 
                                     <p style={{
                                         fontSize:'18px'
-                                    }}>Amina Yousef</p>
+                                    }}>Bukola Damola</p>
                                     <p style={{
                                         fontSize:'20px'
-                                    }}>Leadership Skill: 80%</p>
+                                    }}>Leadership Skill: 92%</p>
                                 
                                 
                                 <button id='view-btn'> View more</button>
@@ -64,10 +64,10 @@ function CohortParticipants () {
                                 
                                     <p style={{
                                         fontSize:'18px'
-                                    }}>Amina Yousef</p>
+                                    }}>Favour John</p>
                                     <p style={{
                                         fontSize:'20px'
-                                    }}>Leadership Skill: 80%</p>
+                                    }}>Technical Skill: 82%</p>
                                 
                                 
                                 <button id='view-btn'>View more</button>
@@ -76,6 +76,72 @@ function CohortParticipants () {
                         </div>
 
                         <div className='profile' id="profile4">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Nse Effiong</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Technical Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile5">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Daramola Adeolu</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 86%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div style={{display:'flex', gap:'40px', marginBottom:'40px',}}>
+
+                        <div className='profile' id="profile6">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Tobi Johnson</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 90%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+                        <div className='profile' id="profile7">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'> View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile8">
                             <div id='profile-info'>
                                 
                                     <p style={{
@@ -91,7 +157,23 @@ function CohortParticipants () {
 
                         </div>
 
-                        <div className='profile' id="profile5">
+                        <div className='profile' id="profile9">
+                            <div id='profile-info'>
+                                
+                                    <p style={{
+                                        fontSize:'18px'
+                                    }}>Amina Yousef</p>
+                                    <p style={{
+                                        fontSize:'20px'
+                                    }}>Leadership Skill: 80%</p>
+                                
+                                
+                                <button id='view-btn'>View more</button>
+                            </div>
+
+                        </div>
+
+                        <div className='profile' id="profile10">
                             <div id='profile-info'>
                                 
                                     <p style={{
