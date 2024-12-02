@@ -11,8 +11,8 @@ function Participants() {
     }
 
     return (
-        <div>
-            <h2>{participant.name}'s Details</h2>
+        <div id='participants-pageLayout'>
+            
 
             <div id="participants-pic" style={{
                 width: '200px',
