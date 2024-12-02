@@ -1,47 +1,39 @@
-#cohort-album
-{
-    width: 80%;
-    padding: 12px;
-    background-color: rgba(0, 0, 255, 0.11);
+#cohort-pageLayout {
+    height: 100vh;
 }
 
-.profile
-{
+#cohort-album {
+    width: 80%;
+    padding: 12px;
+    background-color: rgba(0, 0, 255, 0.068);
+}
+
+.profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 
     width: 100px;
     height: 100px;
-
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     border: 1px solid white;
     border-radius: 12px;
-
     cursor: pointer;
-
 }
 
-.profile:hover 
-{
-    /*
-    transform: translateY(5px);
-    transform: translateX(5px);
-    */
+.profile:hover {
+    transform: scale(1.1);
     border: 3px solid #4f4cfd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
-
-#profile-info
-{
+/*
+#profile-info {
     width: 100%;
-
     padding: 10px 0px;
     background-color: white;
 
@@ -50,85 +42,8 @@
     align-items: center;
     justify-content: center;
 
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
 }
-
-#profile1
-{
-    background-image: url(../assets/close-up-beautiful-african-woman-portrait.png);
-}
-
-#profile2
-{
-    background-image: url(../assets/smiley-african-woman-with-golden-earrings.png);
-}
-
-#profile3
-{
-    background-image: url(../assets/headshot-attractive-young-dark-skinned-bearded-student-stylish-jeans-shirt-smiling-cheerfully-showing-his-perfect-white-teeth-looking-sideways-with-inspired-happy-smile-horizontal.png);
-}
-
-#profile4
-{
-    background-image: url(../assets/woman-home.png);
-}
-
-#profile5
-{
-    background-image: url(../assets/happy-black-woman-posing.png);
-}
-
-#profile6
-{
-    background-image: url(../assets/portrait-father-his-backyard.png);
-}
-
-#profile7
-{
-    background-image: url(../assets/7-young-african-american-woman-with-headband-posing.jpg);
-}
-
-#profile8
-{
-    background-image: url(../assets/8-profile.jpg);
-}
-
-#profile9
-{
-    background-image: url(../assets/9-portrait-afro-business-woman-standing-outdoors-street.jpg);
-}
-
-#profile10
-{
-    background-image: url(../assets/10-portrait-serious-man.jpg);
-}
-
-#profile11
-{
-    background-image: url(../assets/11-young-black-woman-with-afro-hair-laughing-enjoying.jpg);
-}
-
-#profile12
-{
-    background-image: url(../assets/12-medium-shot-smiley-man-posing.jpg);
-}
-
-#profile13
-{
-    background-image: url(../assets/13-african-teenage-girl-portrait-happy-smiling-face.jpg);
-}
-
-#profile14
-{
-    background-image: url(../assets/14-african-american-man-wearing-stylish-hat.jpg);
-}
-
-#profile15
-{
-    background-image: url(../assets/15-portrait-attractive-young-black-male-studio-with-hat-cheesy-smile-dark-background.jpg);
-}
-
-#profile16
-{
-    background-image: url(../assets/16-confident-business-woman-portrait-smiling-face.jpg);
-}
-
+*/

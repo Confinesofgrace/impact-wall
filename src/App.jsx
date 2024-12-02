@@ -6,6 +6,7 @@ import CohortList from './Pages/CohortList'
 import Homepage from './Pages/Homepage'
 import CohortParticipants from './Pages/CohortParticipants'
 import Participants from './Pages/Participants'
+import About from './Pages/About'
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
 
           <Route path='/' element={ <Homepage/>  } />
           <Route path='cohort-page' element={<CohortParticipants/>} />
-          <Route path='participants' element={<Participants/>} />
+          <Route path='participants/:id' element={<Participants/>} />
+          <Route path='about' element={<About/> } />
         </Routes>
       </BrowserRouter>
       
